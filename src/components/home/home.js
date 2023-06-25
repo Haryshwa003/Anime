@@ -85,7 +85,7 @@ export class Home extends Component {
       // </div>
       
       <div style={outer}>
-         <Offcanvas class="canvas" show={this.state.show} onHide={this.handleClose} >
+         <Offcanvas className="canvas" show={this.state.show} onHide={this.handleClose} >
           <Offcanvas.Header closeButton>
             <Offcanvas.Title>Recent</Offcanvas.Title>
           </Offcanvas.Header>
@@ -169,8 +169,8 @@ export class Home extends Component {
 </div>
 </div>
 
-<div class="epi">Episodes
-<div class="flex-containerepi">
+<div className="epi">Episodes
+<div className="flex-containerepi">
   <div>
     1</div>
   <div>2</div>
@@ -193,7 +193,7 @@ export class Home extends Component {
    <div>19</div>
   <div>20</div>
 </div>
-<div class="flex-containerepi">
+<div className="flex-containerepi">
     
   <div>21</div>
   <div>22</div>
@@ -216,7 +216,7 @@ export class Home extends Component {
    <div>39</div>
   <div>40</div>
 </div>
-<div class="flex-containerepi">
+<div className="flex-containerepi">
  
   <div>41</div>
   <div>42</div>
@@ -250,7 +250,7 @@ The third season of the Attack on Titan anime television series was produced by 
 
 <div>
 <h1>Action</h1>
-  <div class="flex-containeraction">
+  <div className="flex-containeraction">
   <br></br>
   <div><img src={aot} style={pics}/></div>
   <div><img src={naruto} style={pics}/></div>
@@ -261,7 +261,7 @@ The third season of the Attack on Titan anime television series was produced by 
 </div></div>  
 <div>
 <h1>Action</h1>
-<div class="flex-containeraction">
+<div className="flex-containeraction">
   <br></br>
   <div><img src={anime1} style={pics}/></div>
   <div><img src={anime2} style={pics}/></div>
@@ -273,7 +273,7 @@ The third season of the Attack on Titan anime television series was produced by 
 </div>
 <div>
 <h1>Romantic</h1>
-<div class="flex-containeraction">
+<div className="flex-containeraction">
   <br></br>
   <div><img src={anime6} style={pics}/></div>
   <div><img src={anime7} style={pics}/></div>
@@ -285,7 +285,7 @@ The third season of the Attack on Titan anime television series was produced by 
 </div>
 <div>
 <h1>Sci-fi</h1>
-<div class="flex-containeraction">
+<div className="flex-containeraction">
   <br></br>
   <div><img src={anime11} style={pics}/>
  </div>
@@ -300,8 +300,8 @@ The third season of the Attack on Titan anime television series was produced by 
 </div>
 <br></br>
 <div>
-<div class="flex-containeraction" >
-<h2 class="footer">
+<div className="flex-containeraction" >
+<h2 className="footer">
   Copyrights - Haryshwa
 </h2>
 </div>
