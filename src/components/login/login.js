@@ -118,26 +118,26 @@ const titlefont={
         </div>
         <form className="form">
  
- <div class="form-outline mb-4">
- <div class="text-center" >
+ <div className="form-outline mb-4">
+ <div className="text-center" >
  <img src={title} style={titlefont}/>
   </div>
   <br></br>
-   <input type="email" id="form2Example1" class="form-control"  style={textbox} />
-   <label class="form-label" for="form2Example1" style={a}>User Name</label>
+   <input type="email" id="form2Example1" className="form-control"  style={textbox} />
+   <label className="form-label" for="form2Example1" style={a}>User Name</label>
  </div>
 
 
- <div class="form-outline mb-4">
-   <input type="password" id="form2Example2" class="form-control" style={textbox}/>
-   <label class="form-label" for="form2Example2" style={a}>Password</label>
+ <div className="form-outline mb-4">
+   <input type="password" id="form2Example2" className="form-control" style={textbox}/>
+   <label className="form-label" for="form2Example2" style={a}>Password</label>
  </div>
 
 
- <div class="row mb-4">
-   <div class="col d-flex justify-content-center">
-   <div class="text-center">
-     <div class="form-check">
+ <div className="row mb-4">
+   <div className="col d-flex justify-content-center">
+   <div className="text-center">
+     <div className="form-check">
      <input
   className="form-check-input"
   type="checkbox"
@@ -146,7 +146,7 @@ const titlefont={
   style={checkboxStyle}
 />
 
-       <label class="form-check-label" for="form2Example31" style={a}> Remember me </label>
+       <label className="form-check-label" for="form2Example31" style={a}> Remember me </label>
        </div>
      </div>
    </div>
@@ -154,30 +154,30 @@ const titlefont={
   
  </div>
 
- <div class="text-center">
+ <div className="text-center">
  <script>
 
 </script>
- <button type="button" class=" btn btn-danger btn-block mb-4 "  onClick={this.handleButtonClick} >
+ <button type="button" className=" btn btn-danger btn-block mb-4 "  onClick={this.handleButtonClick} >
   <Link to="/Home" style={signinlink}>Sign in</Link></button>
  </div>
 
- <div class="text-center">
+ <div className="text-center">
    
    <p style={a}>or sign up with:</p>
-   <button type="button" class="btn btn-link btn-floating mx-1">
+   <button type="button" className="btn btn-link btn-floating mx-1">
    <img src={icon1}/>
    </button>
 
-   <button type="button" class="btn btn-link btn-floating mx-1">
+   <button type="button" className="btn btn-link btn-floating mx-1">
    <img src={icon2}/>
    </button>
 
-   <button type="button" class="btn btn-link btn-floating mx-1">
+   <button type="button" className="btn btn-link btn-floating mx-1">
    <img src={icon3}/>
    </button>
 
-   <button type="button" class="btn btn-link btn-floating mx-1">
+   <button type="button" className="btn btn-link btn-floating mx-1">
    <img src={icon4}/>
    </button>
  </div>
